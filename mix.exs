@@ -21,7 +21,7 @@ defmodule Mimir.MixProject do
     [
       {:tesla, "~> 1.5"},
       {:snappyer, "~> 1.2"},
-      {:finch, "~> 0.14.0"},
+      {:finch, git: "https://github.com/sneako/finch.git", override: true},
       {:protobuf, "~> 0.11.0"}
     ]
   end
