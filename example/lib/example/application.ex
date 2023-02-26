@@ -6,6 +6,7 @@ defmodule Example.Application do
     children = [
       ExampleWeb.Telemetry,
       {Phoenix.PubSub, name: Example.PubSub},
+      Mimir,
       ExampleWeb.Endpoint
     ]
 

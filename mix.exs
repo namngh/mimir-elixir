@@ -19,9 +19,8 @@ defmodule Mimir.MixProject do
 
   defp deps do
     [
-      {:tesla, "~> 1.5"},
       {:snappyer, "~> 1.2"},
-      {:finch, git: "https://github.com/sneako/finch.git", override: true},
+      {:finch, git: "https://github.com/namngh/finch.git", override: true},
       {:protobuf, "~> 0.11.0"}
     ]
   end

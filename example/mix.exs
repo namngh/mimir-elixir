@@ -31,7 +31,7 @@ defmodule Example.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:mimir, git: "https://github.com/namngh/mimir-elixir.git"}
+      {:mimir, path: "../"}
     ]
   end
 
